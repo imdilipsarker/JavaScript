@@ -1,2 +1,2 @@
-let date = getDate();
-console.log(date)
+let myName = "Dilip Sarker";
+console.log(myName);
