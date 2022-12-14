@@ -1,7 +1,10 @@
-let number = 10;
-
-if (number % 2 === 0) {
-  console.log("The number is even.");
-} else {
-  console.log("The number is odd.");
+function evenOrOdd(number) {
+  let result;
+  if (number % 2 === 0) {
+    result = "The number is even";
+  } else {
+    result = "The number is odd";
+  }
+  return result;
 }
+console.log(evenOrOdd(4));
