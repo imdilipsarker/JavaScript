@@ -7,4 +7,4 @@ function isPositive(number) {
   }
   return result;
 }
-console.log(isPositive(-1));
+console.log(isPositive("dilip"));
