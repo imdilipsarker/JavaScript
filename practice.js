@@ -1,11 +1,11 @@
-function countNumbersDivisibleByThree() {
+function checkNumbersDivisibleByFive() {
   let numbers = [];
-  for (let i = 1; i <= 30; i++) {
-    if (i % 3 === 0) {
+  for (let i = 0; i <= 50; i++) {
+    if (i % 5 === 0) {
       numbers.push(i);
     }
   }
   return numbers;
 }
-let result = countNumbersDivisibleByThree();
+let result = checkNumbersDivisibleByFive();
 console.log(result);
