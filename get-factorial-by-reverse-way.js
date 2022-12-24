@@ -1,9 +1,7 @@
 function getFactorial(number) {
   let factorial = 1;
-  let index = number;
-  while (index >= 1) {
-    factorial *= index;
-    index--;
+  for (let i = number; i >= 1; i--) {
+    factorial *= i;
   }
   return factorial;
 }
