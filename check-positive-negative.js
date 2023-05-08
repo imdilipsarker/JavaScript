@@ -1,5 +1,5 @@
 function isPositive(number) {
-  if ((number = "string")) {
+  if (isNaN(number)) {
     return "please insert number";
   }
   let result;
